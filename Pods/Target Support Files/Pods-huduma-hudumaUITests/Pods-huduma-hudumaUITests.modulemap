@@ -1,0 +1,6 @@
+framework module Pods_huduma_hudumaUITests {
+  umbrella header "Pods-huduma-hudumaUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

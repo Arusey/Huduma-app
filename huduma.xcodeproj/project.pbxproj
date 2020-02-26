@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C376CE93AFA500B39D6919BC /* Pods_huduma_hudumaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D25C267D584320BD16D70C0 /* Pods_huduma_hudumaUITests.framework */; };
+		CE3B54653DF2E049A9148BC4 /* Pods_huduma.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFB473DE99ED076118F7E1B /* Pods_huduma.framework */; };
+		E60A25A993393A684FBCB08C /* Pods_hudumaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8448DCAC890DB86B9E77264 /* Pods_hudumaTests.framework */; };
+		FA00962D2424C5FD00EB4F8B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA00962C2424C5FD00EB4F8B /* DetailViewController.swift */; };
+		FA1F0E3724115C0700CF0653 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F0E3624115C0700CF0653 /* HomeTableViewController.swift */; };
+		FA1F0E3924115C2A00CF0653 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1F0E3824115C2A00CF0653 /* Department.swift */; };
+		FAADB9462413C1880075AE88 /* huduma.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAADB9442413C1880075AE88 /* huduma.xcdatamodeld */; };
+		FAADB9592413C3E70075AE88 /* CurrentUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADB9572413C3E70075AE88 /* CurrentUser+CoreDataClass.swift */; };
+		FAADB95A2413C3E70075AE88 /* CurrentUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAADB9582413C3E70075AE88 /* CurrentUser+CoreDataProperties.swift */; };
+		FAD0A7C223FD961A0014C26F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0A7C123FD961A0014C26F /* AppDelegate.swift */; };
+		FAD0A7C423FD961A0014C26F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0A7C323FD961A0014C26F /* SceneDelegate.swift */; };
+		FAD0A7C623FD961A0014C26F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0A7C523FD961A0014C26F /* SignUpViewController.swift */; };
+		FAD0A7C923FD961A0014C26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD0A7C723FD961A0014C26F /* Main.storyboard */; };
+		FAD0A7CB23FD961C0014C26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD0A7CA23FD961C0014C26F /* Assets.xcassets */; };
+		FAD0A7CE23FD961C0014C26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAD0A7CC23FD961C0014C26F /* LaunchScreen.storyboard */; };
+		FAD0A7D923FD961C0014C26F /* hudumaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0A7D823FD961C0014C26F /* hudumaTests.swift */; };
+		FAD0A7E423FD961C0014C26F /* hudumaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0A7E323FD961C0014C26F /* hudumaUITests.swift */; };
+		FAD0A7F223FD9A400014C26F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0A7F123FD9A400014C26F /* User.swift */; };
+		FAD0A7F423FDA20E0014C26F /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD0A7F323FDA20E0014C26F /* APIRequests.swift */; };
+		FAE0819224068835009DB7CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE0819124068835009DB7CF /* LoginViewController.swift */; };
+		FAE081972406A1A0009DB7CF /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE081962406A1A0009DB7CF /* FormValidation.swift */; };
+		FAE0819A2406A8F2009DB7CF /* UITextField+Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE081992406A8F2009DB7CF /* UITextField+Validations.swift */; };
+		FAF1AA31243093B2005A4334 /* Webp.net-resizeimage.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF1AA30243093B2005A4334 /* Webp.net-resizeimage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD0A7D523FD961C0014C26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD0A7B623FD961A0014C26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD0A7BD23FD961A0014C26F;
+			remoteInfo = huduma;
+		};
+		FAD0A7E023FD961C0014C26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD0A7B623FD961A0014C26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD0A7BD23FD961A0014C26F;
+			remoteInfo = huduma;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BAADA5FF67DD80EF91E4D71 /* Pods-huduma.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huduma.debug.xcconfig"; path = "Target Support Files/Pods-huduma/Pods-huduma.debug.xcconfig"; sourceTree = "<group>"; };
+		21242BA19E26C461DD413429 /* Pods-huduma-hudumaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huduma-hudumaUITests.debug.xcconfig"; path = "Target Support Files/Pods-huduma-hudumaUITests/Pods-huduma-hudumaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E65561E9D265CC795AAC65C /* Pods-hudumaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hudumaTests.release.xcconfig"; path = "Target Support Files/Pods-hudumaTests/Pods-hudumaTests.release.xcconfig"; sourceTree = "<group>"; };
+		8D25C267D584320BD16D70C0 /* Pods_huduma_hudumaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huduma_hudumaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F51AFB784BC3C5AC2EFC357 /* Pods-huduma.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huduma.release.xcconfig"; path = "Target Support Files/Pods-huduma/Pods-huduma.release.xcconfig"; sourceTree = "<group>"; };
+		BAFB473DE99ED076118F7E1B /* Pods_huduma.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_huduma.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE08A9FB34C149D6C7B42671 /* Pods-huduma-hudumaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-huduma-hudumaUITests.release.xcconfig"; path = "Target Support Files/Pods-huduma-hudumaUITests/Pods-huduma-hudumaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C677F97F201E3C6A15AF968B /* Pods-hudumaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hudumaTests.debug.xcconfig"; path = "Target Support Files/Pods-hudumaTests/Pods-hudumaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8448DCAC890DB86B9E77264 /* Pods_hudumaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hudumaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA00962C2424C5FD00EB4F8B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FA1F0E3624115C0700CF0653 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		FA1F0E3824115C2A00CF0653 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		FAADB9452413C1880075AE88 /* huduma.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = huduma.xcdatamodel; sourceTree = "<group>"; };
+		FAADB9572413C3E70075AE88 /* CurrentUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrentUser+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		FAADB9582413C3E70075AE88 /* CurrentUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CurrentUser+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		FAD0A7BE23FD961A0014C26F /* huduma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = huduma.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD0A7C123FD961A0014C26F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAD0A7C323FD961A0014C26F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAD0A7C523FD961A0014C26F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		FAD0A7C823FD961A0014C26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAD0A7CA23FD961C0014C26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAD0A7CD23FD961C0014C26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAD0A7CF23FD961C0014C26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD0A7D423FD961C0014C26F /* hudumaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hudumaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD0A7D823FD961C0014C26F /* hudumaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hudumaTests.swift; sourceTree = "<group>"; };
+		FAD0A7DA23FD961C0014C26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD0A7DF23FD961C0014C26F /* hudumaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hudumaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD0A7E323FD961C0014C26F /* hudumaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hudumaUITests.swift; sourceTree = "<group>"; };
+		FAD0A7E523FD961C0014C26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAD0A7F123FD9A400014C26F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAD0A7F323FDA20E0014C26F /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		FAE0819124068835009DB7CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FAE081962406A1A0009DB7CF /* FormValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidation.swift; sourceTree = "<group>"; };
+		FAE081992406A8F2009DB7CF /* UITextField+Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Validations.swift"; sourceTree = "<group>"; };
+		FAF1AA30243093B2005A4334 /* Webp.net-resizeimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Webp.net-resizeimage.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD0A7BB23FD961A0014C26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3B54653DF2E049A9148BC4 /* Pods_huduma.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD0A7D123FD961C0014C26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60A25A993393A684FBCB08C /* Pods_hudumaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD0A7DC23FD961C0014C26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C376CE93AFA500B39D6919BC /* Pods_huduma_hudumaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BAC38D0300D1DC1F932FC80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAFB473DE99ED076118F7E1B /* Pods_huduma.framework */,
+				8D25C267D584320BD16D70C0 /* Pods_huduma_hudumaUITests.framework */,
+				F8448DCAC890DB86B9E77264 /* Pods_hudumaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A11ECAF01E933C9DBDE7EF79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BAADA5FF67DD80EF91E4D71 /* Pods-huduma.debug.xcconfig */,
+				9F51AFB784BC3C5AC2EFC357 /* Pods-huduma.release.xcconfig */,
+				21242BA19E26C461DD413429 /* Pods-huduma-hudumaUITests.debug.xcconfig */,
+				BE08A9FB34C149D6C7B42671 /* Pods-huduma-hudumaUITests.release.xcconfig */,
+				C677F97F201E3C6A15AF968B /* Pods-hudumaTests.debug.xcconfig */,
+				7E65561E9D265CC795AAC65C /* Pods-hudumaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAD0A7B523FD961A0014C26F = {
+			isa = PBXGroup;
+			children = (
+				FAD0A7C023FD961A0014C26F /* huduma */,
+				FAD0A7D723FD961C0014C26F /* hudumaTests */,
+				FAD0A7E223FD961C0014C26F /* hudumaUITests */,
+				FAD0A7BF23FD961A0014C26F /* Products */,
+				A11ECAF01E933C9DBDE7EF79 /* Pods */,
+				8BAC38D0300D1DC1F932FC80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD0A7BF23FD961A0014C26F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0A7BE23FD961A0014C26F /* huduma.app */,
+				FAD0A7D423FD961C0014C26F /* hudumaTests.xctest */,
+				FAD0A7DF23FD961C0014C26F /* hudumaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD0A7C023FD961A0014C26F /* huduma */ = {
+			isa = PBXGroup;
+			children = (
+				FAADB9572413C3E70075AE88 /* CurrentUser+CoreDataClass.swift */,
+				FAADB9582413C3E70075AE88 /* CurrentUser+CoreDataProperties.swift */,
+				FAE081982406A8C4009DB7CF /* Extensions */,
+				FAE081952406A176009DB7CF /* Validations */,
+				FAD0A7C123FD961A0014C26F /* AppDelegate.swift */,
+				FAD0A7C323FD961A0014C26F /* SceneDelegate.swift */,
+				FAD0A7C523FD961A0014C26F /* SignUpViewController.swift */,
+				FAE0819124068835009DB7CF /* LoginViewController.swift */,
+				FA1F0E3624115C0700CF0653 /* HomeTableViewController.swift */,
+				FA00962C2424C5FD00EB4F8B /* DetailViewController.swift */,
+				FAD0A7F123FD9A400014C26F /* User.swift */,
+				FA1F0E3824115C2A00CF0653 /* Department.swift */,
+				FAD0A7F323FDA20E0014C26F /* APIRequests.swift */,
+				FAD0A7C723FD961A0014C26F /* Main.storyboard */,
+				FAD0A7CA23FD961C0014C26F /* Assets.xcassets */,
+				FAF1AA30243093B2005A4334 /* Webp.net-resizeimage.png */,
+				FAD0A7CC23FD961C0014C26F /* LaunchScreen.storyboard */,
+				FAD0A7CF23FD961C0014C26F /* Info.plist */,
+				FAADB9442413C1880075AE88 /* huduma.xcdatamodeld */,
+			);
+			path = huduma;
+			sourceTree = "<group>";
+		};
+		FAD0A7D723FD961C0014C26F /* hudumaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0A7D823FD961C0014C26F /* hudumaTests.swift */,
+				FAD0A7DA23FD961C0014C26F /* Info.plist */,
+			);
+			path = hudumaTests;
+			sourceTree = "<group>";
+		};
+		FAD0A7E223FD961C0014C26F /* hudumaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0A7E323FD961C0014C26F /* hudumaUITests.swift */,
+				FAD0A7E523FD961C0014C26F /* Info.plist */,
+			);
+			path = hudumaUITests;
+			sourceTree = "<group>";
+		};
+		FAE081952406A176009DB7CF /* Validations */ = {
+			isa = PBXGroup;
+			children = (
+				FAE081962406A1A0009DB7CF /* FormValidation.swift */,
+			);
+			path = Validations;
+			sourceTree = "<group>";
+		};
+		FAE081982406A8C4009DB7CF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FAE081992406A8F2009DB7CF /* UITextField+Validations.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD0A7BD23FD961A0014C26F /* huduma */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD0A7E823FD961C0014C26F /* Build configuration list for PBXNativeTarget "huduma" */;
+			buildPhases = (
+				81A8E1D850213FB5C69BA24D /* [CP] Check Pods Manifest.lock */,
+				FAD0A7BA23FD961A0014C26F /* Sources */,
+				FAD0A7BB23FD961A0014C26F /* Frameworks */,
+				FAD0A7BC23FD961A0014C26F /* Resources */,
+				F6440F9752FB56CA4F1E3F39 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = huduma;
+			productName = huduma;
+			productReference = FAD0A7BE23FD961A0014C26F /* huduma.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD0A7D323FD961C0014C26F /* hudumaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD0A7EB23FD961C0014C26F /* Build configuration list for PBXNativeTarget "hudumaTests" */;
+			buildPhases = (
+				90D3099FE5ACC827F6782677 /* [CP] Check Pods Manifest.lock */,
+				FAD0A7D023FD961C0014C26F /* Sources */,
+				FAD0A7D123FD961C0014C26F /* Frameworks */,
+				FAD0A7D223FD961C0014C26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD0A7D623FD961C0014C26F /* PBXTargetDependency */,
+			);
+			name = hudumaTests;
+			productName = hudumaTests;
+			productReference = FAD0A7D423FD961C0014C26F /* hudumaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAD0A7DE23FD961C0014C26F /* hudumaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD0A7EE23FD961C0014C26F /* Build configuration list for PBXNativeTarget "hudumaUITests" */;
+			buildPhases = (
+				9407FC7B6486DD0EB82B1919 /* [CP] Check Pods Manifest.lock */,
+				FAD0A7DB23FD961C0014C26F /* Sources */,
+				FAD0A7DC23FD961C0014C26F /* Frameworks */,
+				FAD0A7DD23FD961C0014C26F /* Resources */,
+				139E7763A17F4279A39CD220 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD0A7E123FD961C0014C26F /* PBXTargetDependency */,
+			);
+			name = hudumaUITests;
+			productName = hudumaUITests;
+			productReference = FAD0A7DF23FD961C0014C26F /* hudumaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD0A7B623FD961A0014C26F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Arusey;
+				TargetAttributes = {
+					FAD0A7BD23FD961A0014C26F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FAD0A7D323FD961C0014C26F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FAD0A7BD23FD961A0014C26F;
+					};
+					FAD0A7DE23FD961C0014C26F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FAD0A7BD23FD961A0014C26F;
+					};
+				};
+			};
+			buildConfigurationList = FAD0A7B923FD961A0014C26F /* Build configuration list for PBXProject "huduma" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAD0A7B523FD961A0014C26F;
+			productRefGroup = FAD0A7BF23FD961A0014C26F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD0A7BD23FD961A0014C26F /* huduma */,
+				FAD0A7D323FD961C0014C26F /* hudumaTests */,
+				FAD0A7DE23FD961C0014C26F /* hudumaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD0A7BC23FD961A0014C26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1AA31243093B2005A4334 /* Webp.net-resizeimage.png in Resources */,
+				FAD0A7CE23FD961C0014C26F /* LaunchScreen.storyboard in Resources */,
+				FAD0A7CB23FD961C0014C26F /* Assets.xcassets in Resources */,
+				FAD0A7C923FD961A0014C26F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD0A7D223FD961C0014C26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD0A7DD23FD961C0014C26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		139E7763A17F4279A39CD220 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-huduma-hudumaUITests/Pods-huduma-hudumaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-huduma-hudumaUITests/Pods-huduma-hudumaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-huduma-hudumaUITests/Pods-huduma-hudumaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A8E1D850213FB5C69BA24D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-huduma-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90D3099FE5ACC827F6782677 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hudumaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9407FC7B6486DD0EB82B1919 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-huduma-hudumaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6440F9752FB56CA4F1E3F39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-huduma/Pods-huduma-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-huduma/Pods-huduma-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-huduma/Pods-huduma-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD0A7BA23FD961A0014C26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE0819224068835009DB7CF /* LoginViewController.swift in Sources */,
+				FAD0A7F223FD9A400014C26F /* User.swift in Sources */,
+				FAD0A7C623FD961A0014C26F /* SignUpViewController.swift in Sources */,
+				FAD0A7F423FDA20E0014C26F /* APIRequests.swift in Sources */,
+				FAE0819A2406A8F2009DB7CF /* UITextField+Validations.swift in Sources */,
+				FAADB95A2413C3E70075AE88 /* CurrentUser+CoreDataProperties.swift in Sources */,
+				FAD0A7C223FD961A0014C26F /* AppDelegate.swift in Sources */,
+				FA1F0E3724115C0700CF0653 /* HomeTableViewController.swift in Sources */,
+				FAADB9462413C1880075AE88 /* huduma.xcdatamodeld in Sources */,
+				FAADB9592413C3E70075AE88 /* CurrentUser+CoreDataClass.swift in Sources */,
+				FA1F0E3924115C2A00CF0653 /* Department.swift in Sources */,
+				FAE081972406A1A0009DB7CF /* FormValidation.swift in Sources */,
+				FAD0A7C423FD961A0014C26F /* SceneDelegate.swift in Sources */,
+				FA00962D2424C5FD00EB4F8B /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD0A7D023FD961C0014C26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD0A7D923FD961C0014C26F /* hudumaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD0A7DB23FD961C0014C26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD0A7E423FD961C0014C26F /* hudumaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD0A7D623FD961C0014C26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD0A7BD23FD961A0014C26F /* huduma */;
+			targetProxy = FAD0A7D523FD961C0014C26F /* PBXContainerItemProxy */;
+		};
+		FAD0A7E123FD961C0014C26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD0A7BD23FD961A0014C26F /* huduma */;
+			targetProxy = FAD0A7E023FD961C0014C26F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD0A7C723FD961A0014C26F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD0A7C823FD961A0014C26F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAD0A7CC23FD961C0014C26F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD0A7CD23FD961C0014C26F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD0A7E623FD961C0014C26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAD0A7E723FD961C0014C26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAD0A7E923FD961C0014C26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BAADA5FF67DD80EF91E4D71 /* Pods-huduma.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = huduma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.arusey.huduma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAD0A7EA23FD961C0014C26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F51AFB784BC3C5AC2EFC357 /* Pods-huduma.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = huduma/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.arusey.huduma;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAD0A7EC23FD961C0014C26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C677F97F201E3C6A15AF968B /* Pods-hudumaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hudumaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.arusey.hudumaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/huduma.app/huduma";
+			};
+			name = Debug;
+		};
+		FAD0A7ED23FD961C0014C26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E65561E9D265CC795AAC65C /* Pods-hudumaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hudumaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.arusey.hudumaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/huduma.app/huduma";
+			};
+			name = Release;
+		};
+		FAD0A7EF23FD961C0014C26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21242BA19E26C461DD413429 /* Pods-huduma-hudumaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hudumaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.arusey.hudumaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = huduma;
+			};
+			name = Debug;
+		};
+		FAD0A7F023FD961C0014C26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE08A9FB34C149D6C7B42671 /* Pods-huduma-hudumaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = hudumaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = codes.arusey.hudumaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = huduma;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD0A7B923FD961A0014C26F /* Build configuration list for PBXProject "huduma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD0A7E623FD961C0014C26F /* Debug */,
+				FAD0A7E723FD961C0014C26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD0A7E823FD961C0014C26F /* Build configuration list for PBXNativeTarget "huduma" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD0A7E923FD961C0014C26F /* Debug */,
+				FAD0A7EA23FD961C0014C26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD0A7EB23FD961C0014C26F /* Build configuration list for PBXNativeTarget "hudumaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD0A7EC23FD961C0014C26F /* Debug */,
+				FAD0A7ED23FD961C0014C26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD0A7EE23FD961C0014C26F /* Build configuration list for PBXNativeTarget "hudumaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD0A7EF23FD961C0014C26F /* Debug */,
+				FAD0A7F023FD961C0014C26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAADB9442413C1880075AE88 /* huduma.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAADB9452413C1880075AE88 /* huduma.xcdatamodel */,
+			);
+			currentVersion = FAADB9452413C1880075AE88 /* huduma.xcdatamodel */;
+			path = huduma.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAD0A7B623FD961A0014C26F /* Project object */;
+}
